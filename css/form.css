@@ -1,0 +1,51 @@
+.form-horizontal .control-label
+{
+    width: 110px;
+	display:none;
+}
+
+.form-horizontal .controls
+{
+    margin-left: 120px;
+	margin-bottom:5px;
+}
+.nobr
+{
+    white-space: nowrap;
+}
+.form-horizontal .control-group
+{
+    margin-bottom: 5px;
+}
+
+#final .placeholder
+{
+    color: lightgray;
+}
+#final .placeholder:focus
+{
+    color: lightgray;
+}
+
+#final .required:focus
+{
+    border: 1px solid red;
+}
+
+#final [placeholder='']
+{
+    color: lightgray;
+}
+#final [placeholder='']:focus
+{
+    color: lightgray;
+}
+
+#final [required]:focus
+{
+    border: 1px solid red;
+}
+
+#final .focused
+{
+}
