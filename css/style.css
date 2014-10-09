@@ -1,33 +1,35 @@
 @charset "ISO-8859-1";
+
 /* CSS Congresos UNIR 2014 */
 
+.c-white {
+	color: #fff !important;
+}
+.b-white {
+	background-color: #fff !important;
+}
+.c-black {
+	color: #000 !important;
+}
+.b-black {
+	background-color: #000 !important;
+}
+.triangle:before {
+	content: url('../img/triangle.png');
+	display: block;
+	position: relative;
+	top: -32px;
+	left: 15%;
+	margin-bottom: -38px;
+}
 
-
-
-
-
-
-
-
-
+.padd-2 {
+	padding: 2em !important;
+}
 /*-----banda azul-----*/
 
-
-
-
-
 .icon-campus {
-	background-image:url(../img/campus-virtual.png);
-	background-repeat:no-repeat;
-	background-position:left;
-	}
-
-
-
-
-
-
-
-
-
-
+	background-image: url(../img/campus-virtual.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
