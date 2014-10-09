@@ -14,7 +14,7 @@
 .b-black {
 	background-color: #000 !important;
 }
-.triangle:before {
+.triangle1:before {
 	content: url('../img/triangle.png');
 	display: block;
 	position: relative;
@@ -22,10 +22,27 @@
 	left: 15%;
 	margin-bottom: -38px;
 }
+.triangle {
+	position: relative;
+}
+.triangle:after {
+    border-bottom:25px solid #000;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+    width:0;
+    height:0;
+
+    content:"";
+    display:block;
+    position:absolute;
+    bottom:100%;
+    left:5%;
+}
 
 .padd-2 {
 	padding: 2em !important;
 }
+
 /*-----banda azul-----*/
 
 .icon-campus {
