@@ -1,6 +1,6 @@
 @charset "ISO-8859-1";
 
-/* CSS Congresos UNIR 2014 */
+/* GENERAL CLASS */
 
 .c-white {
 	color: #fff !important;
@@ -14,39 +14,54 @@
 .b-black {
 	background-color: #000 !important;
 }
-.triangle1:before {
-	content: url('../img/triangle.png');
+.padd-1 {
+	padding: 1em !important;
+}
+.padd-2 {
+	padding: 2em !important;
+}
+/* STAFF SECTION */
+
+.triangle:after {
+	border-bottom: 25px solid #000;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	width: 0;
+	height: 0;
+	content: "";
 	display: block;
-	position: relative;
-	top: -32px;
-	left: 15%;
-	margin-bottom: -38px;
+	position: absolute;
+	bottom: 100%;
+	left: 48%;
 }
 .triangle {
 	position: relative;
 }
-.triangle:after {
-    border-bottom:25px solid #000;
-    border-left:25px solid transparent;
-    border-right:25px solid transparent;
-    width:0;
-    height:0;
-
-    content:"";
-    display:block;
-    position:absolute;
-    bottom:100%;
-    left:5%;
-}
-
-.padd-2 {
-	padding: 2em !important;
-}
-
 /*-----banda azul-----*/
 
 .icon-campus {
 	background-image: url(../img/campus-virtual.png);
 	background-repeat: no-repeat;
 	background-position: left;
+}
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+	.triangle:after {
+		left: 4%;
+	}
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+	.triangle:after {
+		left: 8%;
+	}
+}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+	.triangle:after {
+		left: 10%;
+	}
 }
