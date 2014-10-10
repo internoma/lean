@@ -1507,6 +1507,11 @@ ul.b-crumb li a {
 	margin-left:0px;
 	margin-right:0px;
 	margin-bottom:5px;
+
+	}
+	.btn-border {
+		border-right: 2px solid #666;
+		border-bottom: 2px solid #666;
 	}
 	.btn-false333 {
 
@@ -1523,7 +1528,6 @@ ul.b-crumb li a {
 	margin-left:0px;
 	margin-right:0px;
 	margin-bottom:5px;
-
 	}
 
 .btn-false:hover {

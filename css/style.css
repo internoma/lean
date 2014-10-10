@@ -9,10 +9,10 @@
 	background-color: #fff !important;
 }
 .c-black {
-	color: #000 !important;
+	color: #080808 !important;
 }
 .b-black {
-	background-color: #000 !important;
+	background-color: #080808 !important;
 }
 .padd-1 {
 	padding: 1em !important;
@@ -36,6 +36,14 @@
 }
 .triangle {
 	position: relative;
+}
+
+.portada {
+	background: url('../img/portada-lean.jpg')  no-repeat center top;
+}
+
+.head-description {
+	font-size: 1em;
 }
 /*-----banda azul-----*/
 
